@@ -1,0 +1,12 @@
+<ul>
+  {{#each model as |user|}}
+  <li>
+    {{#link-to "user" user.id}}
+    {{user.firstName}} {{user.lastName}}
+    {{/link-to}}
+  </li>
+  <br>
+{{/each}}
+</ul>
+
+{{outlet}}
