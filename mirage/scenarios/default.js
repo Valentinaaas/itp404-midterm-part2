@@ -6,4 +6,5 @@ export default function( server ) {
   */
 
   server.createList('user', 20);
+  server.createList('animal', 1);
 }
